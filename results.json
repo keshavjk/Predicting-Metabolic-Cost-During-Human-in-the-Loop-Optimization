@@ -1,0 +1,24 @@
+{
+  "constant_prediction_mse": 372153.6898012792,
+  "lasso_mse": 375554.59798298206,
+  "lasso_best_alpha": 0.336264300878341,
+  "nn_mse": 1.7935999605261954,
+  "nn_best_hidden": 3,
+  "nn_results_by_hidden": {
+    "2": 139542.75679723528,
+    "3": 1.7935999605261954
+  },
+  "pca_mse": 83063.92900709265,
+  "selected_features_forward_stepwise": [
+    "stride_time",
+    "stride_width",
+    "ankle_angle_max",
+    "emg_TA_R",
+    "emg_GAS_L",
+    "emg_GAS_R",
+    "control_peak_time",
+    "control_rise_time",
+    "control_peak_magnitude",
+    "control_settling_time"
+  ]
+}
